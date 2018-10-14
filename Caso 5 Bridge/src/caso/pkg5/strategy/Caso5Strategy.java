@@ -20,10 +20,9 @@ public class Caso5Strategy {
         InsertSort insert = new InsertSort();
         BubbleSort bubble = new BubbleSort();
         
-        Usuario prueba = new Usuario();
+        Lista prueba = new Lista(quick);
         
         System.out.println("Prueba con QuickSort");
-        prueba.setOrden(quick);
         prueba.ordenar(1);
         prueba.ordenar(0);
         System.out.println("\n");

@@ -9,16 +9,16 @@ package caso.pkg5.strategy;
  *
  * @author Monserrath
  */
-public class QuickSort implements StrategyOrdenamiento{
+public class BubbleSort implements ISorting{
 
     @Override
     public void ascendente() {
-        System.out.println("Aqui se esta aplicando el metodo Quicksort de manera ascendente");
+        System.out.println("Aqui se esta implementando el ordenamiento BubbleSort ascendente");
     }
 
     @Override
     public void descendente() {
-        System.out.println("Aqui se esta aplicando el metodo Quicksort de manera descendente");
+        System.out.println("Aqui se esta implementando el ordenamiento BubbleSort descendente");
     }
     
 }

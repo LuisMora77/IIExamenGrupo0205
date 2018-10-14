@@ -9,18 +9,15 @@ package caso.pkg5.strategy;
  *
  * @author Monserrath
  */
-public class Usuario {
-    
-    private StrategyOrdenamiento orden;
+public class Lista extends Colecciones {
 
-    public Usuario() {
-    }    
-
-    public void setOrden(StrategyOrdenamiento orden) {
-        this.orden = orden;
+    public Lista(ISorting orden) {
+        super(orden);
     }
-    
-    public void ordenar(int forma){
+
+    @Override
+    public void ordenar(int forma) {
+        System.out.println("Lista");
         if(forma == 1){
             orden.ascendente();
         }
@@ -28,4 +25,5 @@ public class Usuario {
             orden.descendente();
         }
     }
+    
 }

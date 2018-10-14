@@ -9,7 +9,7 @@ package caso.pkg5.strategy;
  *
  * @author Monserrath
  */
-public interface StrategyOrdenamiento {
+public interface ISorting {
      public void ascendente();
      public void descendente();
     
