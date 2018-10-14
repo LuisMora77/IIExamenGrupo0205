@@ -13,7 +13,8 @@ public abstract class SisOperativos {
     
     protected Procesos proc;
 
-    public SisOperativos() {
+    public SisOperativos(Procesos proc) {
+        this.proc = proc;
     }
 
     public void setProc(Procesos proc) {

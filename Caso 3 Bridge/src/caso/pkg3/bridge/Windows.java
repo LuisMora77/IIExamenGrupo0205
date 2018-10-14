@@ -10,9 +10,9 @@ package caso.pkg3.bridge;
  * @author Monserrath
  */
 public class Windows extends SisOperativos{
-    
-    public Windows() {
-        super();
+
+    public Windows(Procesos proc) {
+        super(proc);
     }
 
     @Override

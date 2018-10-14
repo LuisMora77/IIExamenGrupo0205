@@ -11,8 +11,8 @@ package caso.pkg3.bridge;
  */
 public class Unix extends SisOperativos {
 
-    public Unix() {
-        super();
+    public Unix(Procesos proc) {
+        super(proc);
     }
 
     @Override

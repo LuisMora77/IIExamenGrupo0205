@@ -11,8 +11,8 @@ package caso.pkg3.bridge;
  */
 public class JVM extends SisOperativos{
 
-    public JVM() {
-        super();
+    public JVM(Procesos proc) {
+        super(proc);
     }
 
     @Override

@@ -19,22 +19,19 @@ public class Caso3Bridge {
         PTS pts = new PTS();
         TSTS tsts = new TSTS();
         
-        Windows win = new Windows();
-        win.setProc(pts);
+        Windows win = new Windows(pts);
         win.realizarProcesos();
         win.setProc(tsts);
         win.realizarProcesos();
         System.out.println("\n");
         
-        Unix unix = new Unix();
-        unix.setProc(pts);
+        Unix unix = new Unix(pts);
         unix.realizarProcesos();
         unix.setProc(tsts);
         unix.realizarProcesos();
         System.out.println("\n");
         
-        JVM jvm = new JVM();
-        jvm.setProc(pts);
+        JVM jvm = new JVM(pts);
         jvm.realizarProcesos();
         jvm.setProc(tsts);
         jvm.realizarProcesos();
