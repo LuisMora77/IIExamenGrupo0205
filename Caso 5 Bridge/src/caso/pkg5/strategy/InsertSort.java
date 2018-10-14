@@ -9,7 +9,7 @@ package caso.pkg5.strategy;
  *
  * @author Monserrath
  */
-public class InsertSort implements StrategyOrdenamiento {
+public class InsertSort implements ISorting {
 
     @Override
     public void ascendente() {
