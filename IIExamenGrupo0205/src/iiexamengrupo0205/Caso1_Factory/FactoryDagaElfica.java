@@ -12,7 +12,7 @@ package iiexamengrupo0205.Caso1_Factory;
 public class FactoryDagaElfica extends FactoryAbstracto {
     
 @Override
-    public Arma fabricarArma() {
-        return new DagaElfica();
+    public Arma fabricarArma(int ataque,int magia) {
+        return new DagaElfica(ataque,magia);
     }
 }

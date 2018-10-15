@@ -10,9 +10,18 @@ package iiexamengrupo0205.Caso1_Factory;
  * @author Luis
  */
 public class HachaEnano extends Arma {
+  private int ataque;
+    private int magia;
+
+    public HachaEnano(int ataque, int magia) {
+        this.ataque = ataque;
+        this.magia = magia;
+    }
     
-     @Override
+    
+    
+    @Override
     public void imprimirAtributos() {
-        System.out.println("HachaEnano: Ataque 15, magia 0, defensa 80");
+        System.out.println("HachaEnano creada: ataque "+ Integer.toString(ataque) + " magia " + Integer.toString(magia));
     }
 }

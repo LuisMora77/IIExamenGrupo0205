@@ -11,5 +11,5 @@ package iiexamengrupo0205.Caso1_Factory;
  */
 public abstract class FactoryAbstracto {
    
-    public abstract Arma fabricarArma();
+    public abstract Arma fabricarArma(int ataque, int magia);
 }

@@ -28,20 +28,20 @@ public class IIExamenGrupo0205 {
         
  
         FactoryAbstracto factoDaga = new FactoryDagaElfica();
-        Arma daga =factoDaga.fabricarArma();
+        Arma daga =factoDaga.fabricarArma(50,90);
         daga.imprimirAtributos();
     
         
         FactoryAbstracto factoOrco = new FactoryArmaOrco();
-        Arma orco =factoOrco.fabricarArma();
+        Arma orco =factoOrco.fabricarArma(90,0);
         orco.imprimirAtributos();
         
         FactoryAbstracto factoSauron = new FactoryGarroteSauron();
-        Arma garrote =factoSauron.fabricarArma();
+        Arma garrote =factoSauron.fabricarArma(100,100);
         garrote.imprimirAtributos();
         
         FactoryAbstracto factoHacha = new FactoryHachaEnano();
-        Arma hacha =factoHacha.fabricarArma();
+        Arma hacha =factoHacha.fabricarArma(200,20);
         hacha.imprimirAtributos();
 
         

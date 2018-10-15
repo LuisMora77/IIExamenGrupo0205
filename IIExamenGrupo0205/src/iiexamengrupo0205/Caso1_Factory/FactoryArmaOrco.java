@@ -12,8 +12,8 @@ package iiexamengrupo0205.Caso1_Factory;
 public class FactoryArmaOrco extends FactoryAbstracto {
 
     @Override
-    public Arma fabricarArma() {
-        return new ArmaOrco();
+    public Arma fabricarArma(int ataque, int magia) {
+        return new ArmaOrco(ataque,magia);
     }
     
 }

@@ -10,9 +10,18 @@ package iiexamengrupo0205.Caso1_Factory;
  * @author Luis
  */
 public class GarroteSauron extends Arma {
-  
-     @Override
+  private int ataque;
+    private int magia;
+
+    public GarroteSauron(int ataque, int magia) {
+        this.ataque = ataque;
+        this.magia = magia;
+    }
+    
+    
+    
+    @Override
     public void imprimirAtributos() {
-        System.out.println("GarroteSauron: Ataque 100, magia 50, defensa 70");
+        System.out.println("GarroteSauron creado: ataque "+ Integer.toString(ataque) + " magia " + Integer.toString(magia));
     }
 }

@@ -10,9 +10,18 @@ package iiexamengrupo0205.Caso1_Factory;
  * @author Luis
  */
 public class DagaElfica extends Arma {
+    private int ataque;
+    private int magia;
+
+    public DagaElfica(int ataque, int magia) {
+        this.ataque = ataque;
+        this.magia = magia;
+    }
     
-     @Override
+    
+    
+    @Override
     public void imprimirAtributos() {
-        System.out.println("DagaElfica: Ataque 50, magia 20, defensa 15");
+        System.out.println("DagaElfica creada: ataque "+ Integer.toString(ataque) + " magia " + Integer.toString(magia));
     }
 }

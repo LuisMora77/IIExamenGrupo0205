@@ -12,7 +12,7 @@ package iiexamengrupo0205.Caso1_Factory;
 public class FactoryHachaEnano extends FactoryAbstracto {
     
     @Override
-    public Arma fabricarArma() {
-        return new HachaEnano();
+    public Arma fabricarArma(int ataque, int magia) {
+        return new HachaEnano(ataque,magia);
     }
 }

@@ -12,7 +12,7 @@ package iiexamengrupo0205.Caso1_Factory;
 public class FactoryGarroteSauron extends FactoryAbstracto {
     
     @Override
-    public Arma fabricarArma() {
-        return new GarroteSauron();
+    public Arma fabricarArma(int ataque, int magia) {
+        return new GarroteSauron(ataque,magia);
     }
 }
